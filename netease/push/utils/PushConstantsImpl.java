@@ -1,0 +1,115 @@
+package com.netease.push.utils;
+
+/* loaded from: classes3.dex */
+public class PushConstantsImpl {
+    static final /* synthetic */ boolean $assertionsDisabled = false;
+    public static final String ACTION_HEAD = "com.netease.push.action.";
+    public static final String CHANNEL_NOTI_CLICK_VER_NAME = "channel_noti_click_ver";
+    public static final String CLIENT_ACTION_CALLBACK_TOKEN = "com.netease.push.action.client.CALLBACK_TOKEN";
+    public static final String CLIENT_ACTION_CHANNLE_NOTI_CLICK = "com.netease.push.action.client.CHANNLE_NOTI_CLICK";
+    public static final String CLIENT_ACTION_HEAD = "com.netease.push.action.client.";
+    public static final String CLIENT_ACTION_LOGIN_CALLBACK = "com.netease.push.action.client.LOGIN_CALLBACK";
+    public static final String CLIENT_ACTION_MESSAGE = "com.netease.push.action.client.MESSAGE";
+    public static final String CLIENT_ACTION_MESSAGE_GCM = "com.google.android.c2dm.intent.RECEIVE";
+    public static final String CLIENT_ACTION_METHOD = "com.netease.push.action.client.METHOD";
+    public static final String CLIENT_ACTION_MPAY_MESSAGE = "com.netease.push.action.mpay.MESSAGE";
+    public static final String CLIENT_ACTION_NOTIFICATION_CLICK = "com.netease.push.action.client.NOTIFICATION_CLICK";
+    public static final String CLIENT_ACTION_REFRESH_DEVID = "com.netease.push.action.client.NEWID";
+    public static final String CLIENT_ACTION_SAVE_TOKEN = "com.netease.push.action.client.SAVE_TOKEN";
+    public static final int CLIENT_CHANNEL_NOTI_CLICK_VER = 1;
+    public static final int CLIENT_MESSAGE_VER = 1;
+    public static final String CLIENT_METHOD_NATIVENOTIFY = "nativenotify";
+    public static final String CLIENT_METHOD_ONBIND = "onbind";
+    public static final String CLIENT_METHOD_ONUNBIND = "onunbind";
+    public static final int CLIENT_METHOD_VER = 1;
+    public static final int CLIENT_NEWID_VER = 1;
+    public static final String COMMON_PARAMETER_SEPARATOR = ",";
+    public static final String COMMON_PARAMETER_SEPARATOR2 = "|";
+    public static final int EVERYDAY = 127;
+    public static final String FIREBASE = "fcm";
+    public static final String FLYME = "flyme";
+    public static final int FRIDAY = 16;
+    public static final String GCM = "gcm";
+    public static final String HEAD = "com.netease.push.";
+    public static final String HONOR = "honor";
+    public static final String HUAWEI = "huawei";
+    public static final String HUAWEI_HMS = "hms";
+    public static final String INTENT_DEVID_NAME = "devid";
+    public static final String INTENT_FLAG_NAME = "flag";
+    public static final String INTENT_LASTTIME_NAME = "lasttime";
+    public static final String INTENT_MESSAGE_NAME = "message";
+    public static final String INTENT_METHOD_NAME = "method";
+    public static final String INTENT_NO_REPEAT_INTERVAL_NAME = "norepeatinterval";
+    public static final String INTENT_PACKAGE_NAME = "package";
+    public static final String INTENT_PUSH_NAME = "pushname";
+    public static final int JAR_VER_CODE = 342;
+    public static final String KEY_SEPARATOR = ".";
+    public static final int MAX_ALARM_COUNT = 500;
+    public static final int MAX_RECONNECT_COUNT = 7;
+    public static final String MESSAGE_VER_NAME = "message_ver";
+    public static final String METHOD_VER_NAME = "method_ver";
+    public static final String MIUI = "miui";
+    public static final int MONDAY = 1;
+    public static final String NEWID_VER_NAME = "newid_ver";
+    public static final String NIEPUSH = "niepush";
+    public static final int NIEPUSH_MODE_ALWAYS_ON = 2;
+    public static final int NIEPUSH_MODE_DISABLED = 0;
+    public static final int NIEPUSH_MODE_WHEN_NEED = 1;
+    public static final String NONE = "none";
+    public static final String NOTIFICATION_CHANNEL_ID = "channel_id";
+    public static final String NOTIFICATION_CHANNEL_NAME = "channel_name";
+    public static final String NOTIFICATION_EXT = "ext";
+    public static final String NOTIFICATION_GROUP_ID = "group_id";
+    public static final String NOTIFICATION_GROUP_NAME = "group_name";
+    public static final String NOTIFICATION_ICON = "icon";
+    public static final String NOTIFICATION_MESSAGE = "msg";
+    public static final String NOTIFICATION_NOTIFYID = "notify_id";
+    public static final String NOTIFICATION_REQID = "reqid";
+    public static final String NOTIFICATION_SERVICE_TYPE = "service_type";
+    public static final String NOTIFICATION_SOUND = "sound";
+    public static final String NOTIFICATION_TITLE = "title";
+    public static final String NOTIFICATION_URI = "uri";
+    public static final String OPPO = "oppo";
+    public static final int REQ_READ_PHONE_STATE = 1;
+    public static final int REQ_WRITE_EXTERNAL_STORAGE = 0;
+    public static final int RUNTIME_PERMISSION_API_LEVEL = 23;
+    public static final int SATURDAY = 32;
+    public static final String SDK_VERSION = "3.4.2";
+    public static final String SERVICE_ACTION2 = "com.netease.push.action.service.PUSHSERVICE2";
+    public static final String SERVICE_ACTION3 = "com.netease.push.action.service.PUSHSERVICE3";
+    public static final String SERVICE_ACTION_HEAD = "com.netease.push.action.service.";
+    public static final String SERVICE_ACTION_METHOD = "com.netease.push.action.service.METHOD";
+    public static final String SERVICE_METHOD_NATIVENOTIFY = "nativenotify";
+    public static final String SERVICE_METHOD_NETWORKCONNECT = "networkconnect";
+    public static final String SERVICE_METHOD_NETWORKDISCONNECT = "networkdisconnect";
+    public static final String SERVICE_METHOD_REGISTER = "register";
+    public static final String SERVICE_METHOD_REMOVEAPP = "removeapp";
+    public static final String SERVICE_METHOD_REPEATPROTECT = "setrepeatprotect";
+    public static final String SERVICE_METHOD_REPEATPROTECT_INTERVAL = "setrepeatprotectinterval";
+    public static final String SERVICE_METHOD_RESTART = "restart";
+    public static final String SERVICE_METHOD_SETSOUND = "setsound";
+    public static final String SERVICE_METHOD_SETVIBRATE = "setvibrate";
+    public static final String SERVICE_METHOD_STOP = "stopservice";
+    public static final String SERVICE_METHOD_TIME_TICK = "time_tick";
+    public static final int SERVICE_METHOD_VER = 1;
+    public static final String SERVICE_START_TYPE = "start_type";
+    public static final String SERVICE_START_TYPE_OTHER = "other";
+    public static final String SERVICE_START_TYPE_SELF = "self";
+    public static final int SHARED_PREFERENCE_API_LEVEL = 24;
+    public static final int SUNDAY = 64;
+    private static final String TAG = "NGPush_" + PushConstantsImpl.class.getSimpleName();
+    public static final int THURSDAY = 8;
+    public static final int TUESDAY = 2;
+    public static final String VIVO = "vivo";
+    public static final int WEDNESDAY = 4;
+    public static final int WEEKEND = 96;
+    public static final int WORKDAY = 31;
+
+    public static int MONTH_DAY(int i) {
+        return 1 << (i - 1);
+    }
+
+    public static int MONTH_DAY_RANGE(int i, int i2) {
+        return (i2 == 31 ? Integer.MAX_VALUE : (1 << i2) - 1) - ((1 << (i - 1)) - 1);
+    }
+}
